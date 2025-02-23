@@ -1,8 +1,25 @@
-# React + Vite
+HungerHub - MERN Food Ordering App 🍔
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HungerHub is a full-stack MERN app that lets users search for delicious food, add items to the cart, and place orders seamlessly.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Search for your favorite food
+
+🛒 Add to Cart & Remove Items
+
+💰 Price Calculation for Orders
+
+🔐 User Authentication (Login/Signup)
+
+📦 Order Storage in MongoDB
+
+⚡ Real-time Updates with Express & React
+
+🛠 Tech Stack
+
+Frontend: React, Bootstrap, Context API
+
+Backend: Node.js, Express.js, MongoDB
+
+Authentication: JWT & bcrypt
