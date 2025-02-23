@@ -1,0 +1,69 @@
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Apply good font globally */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Carousel Styling */
+#carousel {
+  max-height: 350px; /* Adjust height */
+  overflow: hidden;
+}
+
+#carousel img {
+  width: 100%;
+  height: 350px; /* Ensures uniform height */
+  object-fit: cover; /* Prevents image stretching */
+}
+
+/* Styling for search bar */
+.carousel-caption input {
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+/* Stylish search button */
+.carousel-caption button {
+  background-color: #198754;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.carousel-caption button:hover {
+  background-color: #e64a19;
+}
+.hover-effect {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  background-color: #218838; /* Slightly darker green */
+  transform: scale(1.05);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+}
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./assets//burger.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.login-card {
+  width: 25rem;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white for readability */
+  border-radius: 10px;
+}
